@@ -192,8 +192,8 @@ initImageLoading();
 // Add CSS for mobile menu and scroll effects
 const additionalStyles = `
     .navbar.scrolled {
-        background: linear-gradient(135deg, rgba(32, 179, 169, 0.98) 0%, rgba(27, 151, 144, 0.98) 100%);
-        box-shadow: 0 4px 30px rgba(27, 151, 144, 0.3);
+        background: linear-gradient(135deg, rgba(0, 212, 255, 0.98) 0%, rgba(99, 102, 241, 0.95) 50%, rgba(139, 92, 246, 0.92) 100%);
+        box-shadow: 0 4px 30px rgba(0, 212, 255, 0.4);
     }
 
     .nav-menu.active {
@@ -202,11 +202,11 @@ const additionalStyles = `
         top: 100%;
         left: 0;
         right: 0;
-        background: linear-gradient(135deg, rgba(32, 179, 169, 0.98) 0%, rgba(27, 151, 144, 0.98) 100%);
+        background: linear-gradient(135deg, rgba(0, 212, 255, 0.98) 0%, rgba(99, 102, 241, 0.95) 50%, rgba(139, 92, 246, 0.92) 100%);
         flex-direction: column;
         padding: 1rem;
         border-top: 1px solid rgba(255, 255, 255, 0.1);
-        box-shadow: 0 4px 20px rgba(27, 151, 144, 0.3);
+        box-shadow: 0 4px 20px rgba(0, 212, 255, 0.4);
     }
 
     .nav-toggle.active span:nth-child(1) {
